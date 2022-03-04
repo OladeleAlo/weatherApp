@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    background:linear-gradient(rgba(45,86,98),rgba(80,25,36));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+    align-items: center;
+    font-family: sans-serif;
+    color: azure;
+    
+}
+
+.borderForAll {
+    
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 1em;
+   
+}
+
+
+.temperature {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+}
+
+.degree-section {
+    display: flex;
+    cursor: pointer;
+    align-items:baseline;
+}
+
+.degree-section span {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2 {
+    font-size: 40px;
+}
+
+.IconImage{
+    color:white;
+    font-size: 80px;
+    padding-left: 1em;
+    
+}
+
+.all {
+ 
+    display: flex;
+    align-items: center;
+    padding: 0 8em;
+    
+  
+    
+}
+
+.location-timezone {
+    padding-right: 6.5em;
+}
